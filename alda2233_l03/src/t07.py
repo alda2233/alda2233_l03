@@ -27,10 +27,12 @@ def func():
     """
 
 
-number = float(input("Enter number:"))
-percent = float(input("Enter percent:"))
-
-Calc = number/100*(percent)
-
-
-print(f"a {percent} percent discount on {number} is {Calc:.1f}")
+Breakfast = float(input("Enter cost of breakfast:"))
+Lunch = float(input("Enter cost of lunch: "))
+Supper = float(input("Enter cost of supper: "))
+Total = Breakfast + Lunch + Supper
+print("Meal        Cost")
+print(f"Breakfast {Breakfast:>5}")
+print(f"Lunch {Lunch:>9}")
+print(f"Supper{Supper:>9}")
+print(f"Total       {Total:.2f}")
