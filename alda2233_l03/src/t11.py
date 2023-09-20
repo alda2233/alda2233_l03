@@ -25,14 +25,3 @@ def func():
         name - description (type)
     ------------------------------------------------------
     """
-
-
-Breakfast = float(input("Enter cost of breakfast:"))
-Lunch = float(input("Enter cost of lunch: "))
-Supper = float(input("Enter cost of supper: "))
-Total = Breakfast + Lunch + Supper
-print("Meal       Cost")
-print(f"Breakfast ${Breakfast:>9.2f}")
-print(f"Lunch     ${Lunch:>9.2f}")
-print(f"Supper    ${Supper:>9.2f}")
-print(f"Total     ${Total:9.2f}")
