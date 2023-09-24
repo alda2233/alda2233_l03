@@ -57,10 +57,53 @@ t06
 -------------------------------------------------------
 t07
 -------------------------------------------------------
+Enter cost of breakfast: 6.75
+Enter cost of lunch: 19.34
+Enter cost of supper: 112.81
+Meal        Cost
+Breakfast $   6.75
+Lunch     $  19.34
+Supper    $ 112.81
+Total     $ 138.90
+
+
+Enter cost of breakfast: 0
+Enter cost of lunch: 0
+Enter cost of supper: 0
+Meal        Cost
+Breakfast $   0.00
+Lunch     $   0.00
+Supper    $   0.00
+Total     $   0.00
+
+
+Enter cost of breakfast: 96
+Enter cost of lunch: 56.43
+Enter cost of supper: 1963.56
+Meal        Cost
+Breakfast $  96.00
+Lunch     $  56.43
+Supper    $1963.56
+Total     $2115.99
 
 
 -------------------------------------------------------
-t08
+t15
 -------------------------------------------------------
+integer = 654321
+decimal = 654.32
+phrase = "Hello World"
+
+print(f"{integer:d}")
+print(f"{integer:f}")
+# print(f"{integer:s}")
+
+# print(f"{decimal:d}")
+print(f"{decimal:f}")
+# print(f"{decimal:s}")
+
+# print(f"{phrase:d}")
+# print(f"{phrase:f}")
+print(f"{phrase:s}")
 
 
