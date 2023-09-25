@@ -5,7 +5,7 @@
 Author:  Mohamed Aldakhil
 ID:      169072233
 Email:   alda2233@mylaurier.ca
-__updated__ = "2023-09-19"
+__updated__ = "2023-09-25"
 -------------------------------------------------------
 """
 # Imports
@@ -33,4 +33,4 @@ percent = float(input("Enter percent:"))
 Calc = number/100*(percent)
 
 
-print(f"a {percent} percent discount on {number} is {Calc:.1f}")
+print(f"a {percent:.1f} percent discount on {number:.1f} is {Calc:.1f}")
