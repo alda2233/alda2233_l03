@@ -86,24 +86,20 @@ Lunch     $  56.43
 Supper    $1963.56
 Total     $2115.99
 
+t11
+-------------------------------------------------------
+
+left----------------
+-------middle-------
+---------------right
+
 
 -------------------------------------------------------
 t15
 -------------------------------------------------------
-integer = 654321
-decimal = 654.32
-phrase = "Hello World"
-
-print(f"{integer:d}")
-print(f"{integer:f}")
-# print(f"{integer:s}")
-
-# print(f"{decimal:d}")
-print(f"{decimal:f}")
-# print(f"{decimal:s}")
-
-# print(f"{phrase:d}")
-# print(f"{phrase:f}")
-print(f"{phrase:s}")
+654321
+654321.000000
+654.320000
+Hello World
 
 
